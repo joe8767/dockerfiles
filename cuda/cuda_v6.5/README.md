@@ -3,12 +3,12 @@
 
 cuda
 ====
-Ubuntu Core 14.04 + [CUDA 6.5.14](http://www.nvidia.com/object/cuda_home_new.html).
+Ubuntu Core 14.04 + [CUDA 6.5.16](http://www.nvidia.com/object/cuda_home_new.html).
 
 Requirements
 ------------
 
-- Host with corresponding CUDA drivers (v. 340.29) installed for the kernel module.
+- Host with corresponding CUDA drivers (v. 343.19) installed for the kernel module.
 
 Usage
 -----
@@ -24,7 +24,7 @@ Samples
 As the image is intended to be lightweight, the CUDA samples were not installed. If you wish to experiment with the samples you will need to install them yourself. The steps are as below:
 
 ```
-wget http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.14_linux_64.run
+wget http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.16_linux_64.run
 chmod +x cuda_*_linux.run
 ./cuda_*_linux.run -extract=`pwd`
 ./cuda-samples-linux-*.run -noprompt
